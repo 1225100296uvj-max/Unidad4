@@ -1,5 +1,6 @@
 def test_correo_valido():
-	assert es_correo_valido("alumno@escuela.org") == True 
+	assert es_correo_valido("alumno@escuela.org") == False 
+				#Se cambia True --> False para forzar la falla # 
 
 def test_sin_arroba(): 
 	assert es_correo_valido("alumno.escuela.org") == False 
